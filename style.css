@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+
+div#principal  {
+    width: 100%;
+    text-align: center;
+    height: 400px;
+}
+
+#tabela {
+    width: 100%;
+    text-align: center;
+    padding-left: 33%;
+    padding-right: 33%;
+    height: 100%;
+    background-color: #fcfcfc;
+    
+}
+
+#tabela td {
+    border-bottom: 5px solid rgb(233, 230, 36);
+    border-right: 5px solid rgb(1, 236, 1);
+    height: 33%;
+    width: 33%;
+
+}
+
+html {
+    background-color: rgb(248, 248, 248);
+}
+
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background-color: #008CBA;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px #006A8E;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #006A8E;
+    box-shadow: 0px 5px 0px #004F68;
+}
+  
+h2 {
+    font-size: 45px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(9, 136, 209);
+    border: 10px solid rgb(9, 136, 209);
+    border-radius: 1000px;
+    margin-top: 0px;
+}
+  
+  
